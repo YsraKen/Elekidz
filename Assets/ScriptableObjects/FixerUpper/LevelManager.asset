@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 601189c2316f82a4c9ad5d5df7822766, type: 3}
+  m_Name: LevelManager
+  m_EditorClassIdentifier: 
+  defaultPlayerProgressData:
+    levels:
+    - completed: 0
+      highScores: []
+    - completed: 0
+      highScores: []
+    - completed: 0
+      highScores: []
+    - completed: 0
+      highScores: []
+    - completed: 0
+      highScores: []
+    currentLevelIndex: 0
+  loadedProgressData:
+    levels:
+    - completed: 1
+      highScores:
+      - name: gil
+        value: 16.315542
+    - completed: 1
+      highScores:
+      - name: kenneth
+        value: 80.31836
+    - completed: 1
+      highScores:
+      - name: ysrael
+        value: 45.428993
+    - completed: 1
+      highScores:
+      - name: agacan
+        value: 69.25404
+    - completed: 0
+      highScores: []
+    currentLevelIndex: 4

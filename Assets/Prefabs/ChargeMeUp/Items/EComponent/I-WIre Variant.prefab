@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4969683805291923408
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 887890360, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: terminals.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 887890360, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: terminals.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 887890360, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: terminals.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 536647748463038036, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: myComponent
+      value: 
+      objectReference: {fileID: 4969683804957697640}
+    - target: {fileID: 536647749140521712, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: myComponent
+      value: 
+      objectReference: {fileID: 4969683804957697640}
+    - target: {fileID: 536647749215697254, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: myComponent
+      value: 
+      objectReference: {fileID: 4969683804957697640}
+    - target: {fileID: 666016964939930951, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bc90c50dca5744047aff99ba15fcad77, type: 3}
+    - target: {fileID: 1066049558362763111, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bc90c50dca5744047aff99ba15fcad77, type: 3}
+    - target: {fileID: 1532062464141676802, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_Name
+      value: I-WIre Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532062464141676803, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532062464141676803, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532062464141676803, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532062464141676803, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532062464141676803, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532062464141676803, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532062465051548984, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b8a0ea848ecee11499290f8ee51332bc, type: 3}
+    - target: {fileID: 1532062465063802165, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 45285ba780573d949b936108ae86af78, type: 3}
+    - target: {fileID: 1687716238559075558, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: myComponent
+      value: 
+      objectReference: {fileID: 4969683804957697640}
+    - target: {fileID: 2360052552087533334, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_Name
+      value: I-WIre Variant - terminal (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774877114754610943, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_Name
+      value: I-WIre Variant - terminal (0)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3116659953185542688, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bc90c50dca5744047aff99ba15fcad77, type: 3}
+    - target: {fileID: 4152275606156122865, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b8a0ea848ecee11499290f8ee51332bc, type: 3}
+    - target: {fileID: 5065399249466510186, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_Name
+      value: I-WIre Variant - terminal (0)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065399249466510186, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220209360440957400, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_Name
+      value: I-WIre Variant - terminal (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220209360440957400, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220209361831079658, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_Name
+      value: I-WIre Variant - terminal (0)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220209361890522492, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_Name
+      value: I-WIre Variant - terminal (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8547925097329513224, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b8a0ea848ecee11499290f8ee51332bc, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+--- !u!114 &4969683804957697640 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 887890360, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+  m_PrefabInstance: {fileID: 4969683805291923408}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2c6b0ec666e594188d0937da4c66cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
