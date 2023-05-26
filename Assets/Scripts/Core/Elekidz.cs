@@ -83,6 +83,18 @@ public class Elekidz : ScriptableObject
 		if(!obj)
 		{
 			EditorUtility.DisplayDialog(BASE, "Object not found", "OK");
+			
+			if(EditorUtility.DisplayDialog(BASE, "Do you want to assign a reference for this object?", "Assign Reference", "Cancel"))
+			{
+				var instance = Instance;
+				
+				if(instance)
+					PingDirect(instance);
+				
+				else
+					EditorUtility.DisplayDialog(BASE, $"There is no {BASE} scriptable object in the Resources folder", "OK");
+			}
+			
 			return;
 		}
 	
@@ -103,12 +115,17 @@ public class Elekidz : ScriptableObject
 			case 1: break;
 			
 			case 2:
-				Selection.objects = new Object[] { obj };
-				EditorGUIUtility.PingObject(obj);
+				PingDirect(obj);
 				break;
 			
 			default: Debug.LogError("Unknown error."); break;
 		}
+	}
+	
+	private static void PingDirect(Object obj)
+	{
+		Selection.objects = new Object[] { obj };
+		EditorGUIUtility.PingObject(obj);
 	}
 	#endif
 }

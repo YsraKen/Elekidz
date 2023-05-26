@@ -12,6 +12,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 887890360, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: maxAmpereRating
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 887890360, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
       propertyPath: nodes.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -125,11 +129,11 @@ PrefabInstance:
       objectReference: {fileID: 2792594438365155262}
     - target: {fileID: 2360052552087533334, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
       propertyPath: m_Name
-      value: bulb Variant - terminal (1)
+      value: bulb Variant - node (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2774877114754610943, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
       propertyPath: m_Name
-      value: bulb Variant - terminal (0)
+      value: bulb Variant - node (0)
       objectReference: {fileID: 0}
     - target: {fileID: 3116659953185542688, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
       propertyPath: m_Sprite

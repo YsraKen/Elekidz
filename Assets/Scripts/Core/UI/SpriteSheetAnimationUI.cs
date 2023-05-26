@@ -51,7 +51,7 @@ public class SpriteSheetAnimationUI : MonoBehaviour
 
             while (true)
             {
-                image.sprite = sprites[i++ % length];
+				image.sprite = sprites[i++ % length];
                 yield return step;
             }
         }

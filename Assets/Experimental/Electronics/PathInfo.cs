@@ -69,7 +69,7 @@ namespace ChargeMeUp.Experimental.Electronics
 			
 			LoopCertainElementsOfType<Load>(element =>
 			{
-				float value = element.maxAmpereRating;
+				float value = element.MaxAmpereRating;
 				
 				if(value < lowestAmpereRating)
 				{
@@ -90,6 +90,9 @@ namespace ChargeMeUp.Experimental.Electronics
 		
 		public void UpdateElectronicValues(float totalResistance, float voltage, float amperes)
 			=> LoopCertainElementsOfType<Load>(e => e.UpdateValues(totalResistance, voltage, amperes));
+		
+		public void DamageComponents()
+			=> LoopCertainElementsOfType<Load>(e => e.Damage());
 		
 		private void LoopCertainElementsOfType<T>(System.Action<T> onIterate) where T : Object, IElectronPath
 		{

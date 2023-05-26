@@ -72,6 +72,8 @@ namespace ChargeMeUp.Experimental.Electronics
 				{
 					var weakestLoad = info.GetWeakestLoad();
 						weakestLoad?.SetAsBlown();
+					
+					info.DamageComponents();
 				}
 				
 				if(_circuitMgr.SimpleMode)

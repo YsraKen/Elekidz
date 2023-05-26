@@ -85,11 +85,11 @@ PrefabInstance:
       objectReference: {fileID: 1377202407706289040}
     - target: {fileID: 2360052552087533334, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
       propertyPath: m_Name
-      value: T-Wire Variant - terminal (1)
+      value: T-Wire Variant - node (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2774877114754610943, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
       propertyPath: m_Name
-      value: T-Wire Variant - terminal (0)
+      value: T-Wire Variant - node (0)
       objectReference: {fileID: 0}
     - target: {fileID: 3116659953185542688, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
       propertyPath: m_Sprite
@@ -258,7 +258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2254050394561976113, guid: 58cc1d4d19db8e24a8a8ae30099836ff, type: 3}
       propertyPath: m_Name
-      value: T-Wire Variant - terminal (2)
+      value: T-Wire Variant - node (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5649747975206961341, guid: 58cc1d4d19db8e24a8a8ae30099836ff, type: 3}
       propertyPath: <myComponent>k__BackingField

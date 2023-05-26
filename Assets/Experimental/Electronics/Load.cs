@@ -8,12 +8,17 @@ using UnityEngine.UI;
 using UnityEditor;
 #endif
 
+using Random = UnityEngine.Random;
+
 namespace ChargeMeUp.Experimental.Electronics
 {
 	public class Load : MonoBehaviour, IElectronPath
 	{
 		public float resistance;
-		public float maxAmpereRating = 1;
+		[SerializeField] float maxAmpereRating = 1;
+		
+		public float MaxAmpereRating => maxAmpereRating + maxAmpereRatingToleranceAmount;
+		float maxAmpereRatingToleranceAmount;
 		
 		[Range(0,1)] public float targetAmpereRatingNormalized = 0.5f;
 		
@@ -45,7 +50,12 @@ namespace ChargeMeUp.Experimental.Electronics
 		{
 			if(nodes != null || nodes.Length > 0)
 				for(int i = 0; i < nodes.Length; i++)
-					nodes[i].name = $"{name} - terminal ({i})";
+					nodes[i].name = $"{name} - node ({i})";
+		}
+		
+		void Start()
+		{
+			maxAmpereRatingToleranceAmount = Random.value;
 		}
 		
 		void OnDrawGizmos()
@@ -99,9 +109,9 @@ namespace ChargeMeUp.Experimental.Electronics
 					
 					infoElementsCopy.Add(sourceNode);
 				
-				pathInfo = source.CreateNewPath(infoElementsCopy);
+				var newPath = source.CreateNewPath(infoElementsCopy);
 				
-				node.Ping(Node.PingType.Outgoing, source, pathInfo);
+				node.Ping(Node.PingType.Outgoing, source, newPath);
 			}
 		}
 		
@@ -121,6 +131,8 @@ namespace ChargeMeUp.Experimental.Electronics
 			
 			if(blown) blown.SetActive(true);
 			IsBlown = true;
+			
+			CircuitManager.Instance?.PlayExplosionAnimationAtPosition(_transform.position);
 		}
 		
 		public void OnTick()
@@ -171,5 +183,7 @@ namespace ChargeMeUp.Experimental.Electronics
 			
 			#endregion
 		}
+		
+		public void Damage() => maxAmpereRating -= Random.value;
 	}
 }

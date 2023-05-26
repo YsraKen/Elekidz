@@ -10,6 +10,12 @@ namespace ChargeMeUp.Experimental.Electronics
 		
 		public Gradient indicatorGradient;
 		
+		[Space]
+		[SerializeField] GameObject explosionAnimation;
+		[SerializeField] float explosionAnimationDuration = 1f;
+		[SerializeField] GameObject explodeEffectTestA, explodeEffectTestB;
+		[SerializeField] int explodeEffectTestFrameCount = 2;
+		
 		List<IElectronPath> electronPathInstances = new List<IElectronPath>();
 		List<Source> sourceInstances = new List<Source>();
 		
@@ -90,6 +96,35 @@ namespace ChargeMeUp.Experimental.Electronics
 		{
 			if(sourceInstances.Contains(instance))
 				sourceInstances.Remove(instance);
+		}
+		
+		public void PlayExplosionAnimationAtPosition(Vector3 position)
+		{
+			StartCoroutine(r());
+			IEnumerator r()
+			{
+				var screenPoint = Camera.main.WorldToScreenPoint(position);
+					explosionAnimation.transform.position = screenPoint;
+				
+				explodeEffectTestA.SetActive(true);
+				yield return null;
+				
+				explosionAnimation.SetActive(true);
+				
+				for(int i = 1; i < explodeEffectTestFrameCount; i++)
+					yield return null;
+				
+				explodeEffectTestA.SetActive(false);
+				explodeEffectTestB.SetActive(true);
+				
+				for(int i = 1; i < explodeEffectTestFrameCount; i++)
+					yield return null;
+				
+				explodeEffectTestB.SetActive(false);
+				
+				yield return new WaitForSeconds(explosionAnimationDuration);
+				explosionAnimation.SetActive(false);
+			}
 		}
 	}
 }

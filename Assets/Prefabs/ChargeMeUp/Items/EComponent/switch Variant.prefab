@@ -161,7 +161,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2645134701784556714, guid: 5f1d8e2b8f0e8f149b67ee4f01e15a27, type: 3}
       propertyPath: m_Name
-      value: independent (1)
+      value: switchTerminal (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2645134701784556715, guid: 5f1d8e2b8f0e8f149b67ee4f01e15a27, type: 3}
       propertyPath: m_Pivot.x
@@ -249,11 +249,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4319683334434448366, guid: 5f1d8e2b8f0e8f149b67ee4f01e15a27, type: 3}
       propertyPath: m_Name
-      value: independent (1) - terminal (0)
+      value: switchTerminal (1) - node (0)
       objectReference: {fileID: 0}
     - target: {fileID: 4319683334617037410, guid: 5f1d8e2b8f0e8f149b67ee4f01e15a27, type: 3}
       propertyPath: m_Name
-      value: independent (1) - terminal (1)
+      value: switchTerminal (1) - node (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f1d8e2b8f0e8f149b67ee4f01e15a27, type: 3}
@@ -282,7 +282,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 0420f842169926a4995fd5243a9db7e9, type: 3}
     - target: {fileID: 2645134701784556714, guid: 5f1d8e2b8f0e8f149b67ee4f01e15a27, type: 3}
       propertyPath: m_Name
-      value: independent (2)
+      value: switchMain
       objectReference: {fileID: 0}
     - target: {fileID: 2645134701784556714, guid: 5f1d8e2b8f0e8f149b67ee4f01e15a27, type: 3}
       propertyPath: m_IsActive
@@ -440,7 +440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resistance: Infinity
-  maxAmpereRating: 10
+  maxAmpereRating: 6
   targetAmpereRatingNormalized: 0.5
   nodes:
   - {fileID: 5943905793913569155}
@@ -488,7 +488,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2645134701784556714, guid: 5f1d8e2b8f0e8f149b67ee4f01e15a27, type: 3}
       propertyPath: m_Name
-      value: independent
+      value: switchTerminal (0)
       objectReference: {fileID: 0}
     - target: {fileID: 2645134701784556715, guid: 5f1d8e2b8f0e8f149b67ee4f01e15a27, type: 3}
       propertyPath: m_Pivot.x
@@ -573,6 +573,14 @@ PrefabInstance:
     - target: {fileID: 2645134701784556715, guid: 5f1d8e2b8f0e8f149b67ee4f01e15a27, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4319683334434448366, guid: 5f1d8e2b8f0e8f149b67ee4f01e15a27, type: 3}
+      propertyPath: m_Name
+      value: switchTerminal (0) - node (0)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4319683334617037410, guid: 5f1d8e2b8f0e8f149b67ee4f01e15a27, type: 3}
+      propertyPath: m_Name
+      value: switchTerminal (0) - node (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f1d8e2b8f0e8f149b67ee4f01e15a27, type: 3}

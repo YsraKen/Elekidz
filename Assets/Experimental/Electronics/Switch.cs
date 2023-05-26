@@ -13,6 +13,8 @@ namespace ChargeMeUp.Experimental.Electronics
 		[ContextMenu("Toggle")]
 		public void Toggle()
 		{
+			if(IsBlown) return;
+			
 			IsClosed = !IsClosed;
 			
 			UpdateState();
