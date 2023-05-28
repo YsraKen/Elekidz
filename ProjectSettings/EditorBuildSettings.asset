@@ -26,4 +26,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ChargeMeUp/ChargeMeUpGameplay.unity
     guid: 3bcf34e87bc29b84f8c908118363ea84
+  - enabled: 1
+    path: Assets/Scenes/ChargeMeUp/ChargeMeUpGameplay 1.unity
+    guid: c2f66b704780d714c80a50f7e1c8415e
+  - enabled: 1
+    path: Assets/Scenes/ChargeMeUp/ChargeMeUpGameplay 2.unity
+    guid: 588bf39cab998f449959eaa6571f562c
+  - enabled: 1
+    path: Assets/Scenes/ChargeMeUp/ChargeMeUpGameplay 3.unity
+    guid: f50e211cd3231fe49b72e5aef71f3d80
+  - enabled: 1
+    path: Assets/Scenes/ChargeMeUp/ChargeMeUpGameplay 4.unity
+    guid: 9b1eb8b8e975c2f4a9e6edc884f68bb7
+  - enabled: 1
+    path: Assets/Scenes/ChargeMeUp/ChargeMeUpGameplay 5.unity
+    guid: fa4914ba68290f744b18fb7b704c859e
+  - enabled: 1
+    path: Assets/Scenes/ChargeMeUp/ChargeMeUpGameplay 6.unity
+    guid: 4777d1986bcfad743af75056822065b1
   m_configObjects: {}

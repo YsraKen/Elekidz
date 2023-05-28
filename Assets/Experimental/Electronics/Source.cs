@@ -4,14 +4,16 @@ using UnityEngine;
 
 namespace ChargeMeUp.Experimental.Electronics
 {
-	public class Source : MonoBehaviour, ITickUpdate
+	public class Source : Component, ITickUpdate
 	{
 		public float voltage = 5;
 		
 		public Node node;
 		
-		public List<PathInfo> pathInfos = new List<PathInfo>();
-		public bool hasOpenCircuit { get; private set; }
+		public bool checkForOpenNodes { get; set; }
+		public bool HasOpenNode { get; private set; }
+		
+		public List<PathInfo> PathInfos { get; private set; } = new List<PathInfo>();
 		
 		public Gradient gradient;
 		
@@ -24,13 +26,13 @@ namespace ChargeMeUp.Experimental.Electronics
 		
 		void OnDrawGizmosSelected()
 		{
-			int count = pathInfos.Count;
+			int count = PathInfos.Count;
 			float maxIndexF = (float) count - 1f;
 			
 			for(int i = 0; i < count; i++)
 			{
 				var color = gradient.Evaluate((float) i / maxIndexF);
-				pathInfos[i].DrawGizmos(color);
+				PathInfos[i].DrawGizmos(color);
 			}
 		}
 		
@@ -43,26 +45,26 @@ namespace ChargeMeUp.Experimental.Electronics
 		public PathInfo CreateNewPath(List<IElectronPath> elements = null)
 		{
 			var newInfo = new PathInfo(elements);
-				pathInfos.Add(newInfo);
+				PathInfos.Add(newInfo);
 			
 			return newInfo;
 		}
 		
 		void HandleCicuitLoop()
 		{
-			pathInfos.Clear();
+			PathInfos.Clear();
 			
 			var newPathInfo = CreateNewPath();
 			
 			node.Ping(Node.PingType.Outgoing, this, newPathInfo);
 			
-			hasOpenCircuit = pathInfos.Exists(info => !info.isClosedCircuit);
-			pathInfos.RemoveAll(info => !info.isClosedCircuit);
+			PathInfos.RemoveAll(info => !info.isClosedCircuit);
+			HasOpenNode = PathInfos.Exists(info => info.HasOpenNode());
 		}
 		
 		void HandleElectronicValues()
 		{
-			foreach(var info in pathInfos)
+			foreach(var info in PathInfos)
 			{
 				float totalResistance = info.GetTotalResistance();
 				

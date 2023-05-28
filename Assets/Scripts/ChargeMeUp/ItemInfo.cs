@@ -6,7 +6,7 @@ using TMPro;
 namespace ChargeMeUp
 {
 	[System.Serializable]
-	public class ItemInfo
+	public class ItemInfo // : ScritpableObject
 	{
 		public string name;
 		public Sprite icon;
@@ -15,20 +15,13 @@ namespace ChargeMeUp
 		
 		public List<Item> Instances { get; private set; } = new List<Item>();
 		
-		[Header("UI")]
-		[SerializeField] private Image _icon;
-		[SerializeField] private TMP_Text _label;
-		[SerializeField] private TMP_Text _remainingTxt;
+		private ItemContainer _itemContainerUI;
 		
-		public bool enabled = true; // debug
-		
-		public void InitializeUI()
+		public void InitializeUI(ItemContainer container)
 		{
-			if(!enabled) return;
+			_itemContainerUI ??= container;
 			
-			_icon.sprite = icon;
-			_label.text = name;
-			
+			_itemContainerUI.SetupUI(icon, name);
 			UpdateRemainingCount();
 		}
 		
@@ -67,6 +60,10 @@ namespace ChargeMeUp
 			UpdateRemainingCount();
 		}
 		
-		public void UpdateRemainingCount() => _remainingTxt.text = (maxCount - Instances.Count).ToString();
+		public void UpdateRemainingCount()
+		{
+			int remaining = maxCount - Instances.Count;
+			_itemContainerUI.SetCount(remaining);
+		}
 	}
 }

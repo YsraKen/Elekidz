@@ -23,6 +23,10 @@ PrefabInstance:
       propertyPath: terminals.Array.data[2]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 887890360, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: <ComponentId>k__BackingField
+      value: tWire
+      objectReference: {fileID: 0}
     - target: {fileID: 536647748463038036, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
       propertyPath: myComponent
       value: 

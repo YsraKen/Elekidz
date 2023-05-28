@@ -9,6 +9,7 @@ namespace ChargeMeUp
 		public PlayerProgress playerProgress;
 		
 		public string[] levelScenes;
+		public string menuScene = "ChargeMeUp";
 		
 		public void LoadData()
 		{

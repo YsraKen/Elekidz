@@ -540,6 +540,34 @@ PrefabInstance:
       propertyPath: onClickEvents.Array.data[0].delay
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 9129728408508460659, guid: 3f2f2920397a7d44eb04439d5880edd6, type: 3}
+      propertyPath: onClickEvents.Array.data[0].action.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9129728408508460659, guid: 3f2f2920397a7d44eb04439d5880edd6, type: 3}
+      propertyPath: onClickEvents.Array.data[0].action.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9129728408508460659, guid: 3f2f2920397a7d44eb04439d5880edd6, type: 3}
+      propertyPath: onClickEvents.Array.data[0].action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 529671232215924664}
+    - target: {fileID: 9129728408508460659, guid: 3f2f2920397a7d44eb04439d5880edd6, type: 3}
+      propertyPath: onClickEvents.Array.data[0].action.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9129728408508460659, guid: 3f2f2920397a7d44eb04439d5880edd6, type: 3}
+      propertyPath: onClickEvents.Array.data[0].action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 9129728408508460659, guid: 3f2f2920397a7d44eb04439d5880edd6, type: 3}
+      propertyPath: onClickEvents.Array.data[0].action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ChargeMeUp.ItemContainer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9129728408508460659, guid: 3f2f2920397a7d44eb04439d5880edd6, type: 3}
+      propertyPath: onClickEvents.Array.data[0].action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 9129728408508460660, guid: 3f2f2920397a7d44eb04439d5880edd6, type: 3}
       propertyPath: m_Name
       value: container
@@ -685,3 +713,19 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &529671232215924664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2795977164956423717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67fff7d21026c1b488868045bc61ca86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIndex: 0
+  _iconImg: {fileID: 159500776}
+  _labelTxt: {fileID: 506685864}
+  _countTxt: {fileID: 649266969019351888}

@@ -169,7 +169,7 @@ AudioSource:
   m_GameObject: {fileID: 155400758}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -2279188300959598650, guid: beb0d097ba6beda449ec1873ad06c132, type: 2}
   m_audioClip: {fileID: 8300000, guid: c751fb9d107fd7149add5841b21093a0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.35
@@ -791,6 +791,7 @@ GameObject:
   - component: {fileID: 1134586427}
   - component: {fileID: 1134586426}
   - component: {fileID: 1134586429}
+  - component: {fileID: 1134586430}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -897,6 +898,22 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &1134586430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134586425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56666c5a40171f54783dd416a44f42bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_MaxRayIntersections: 0
 --- !u!1 &1323433803
 GameObject:
   m_ObjectHideFlags: 0
@@ -1852,3 +1869,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2012190242}
   m_CullTransparentMesh: 1
+--- !u!1 &2045738292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 120358, guid: e75cf0dba269ca24e943482d44f3011f, type: 3}
+  m_PrefabInstance: {fileID: 1800692626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &2045738295
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045738292}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.5

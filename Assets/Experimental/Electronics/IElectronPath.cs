@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace ChargeMeUp.Experimental.Electronics
 {
+	// conductor
 	public interface IElectronPath : ITickUpdate
 	{
 		public Transform transform { get; }

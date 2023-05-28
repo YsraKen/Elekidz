@@ -1,0 +1,1455 @@
+fileFormatVersion: 2
+guid: 128dfcf6c0dc2d3468f562016c823f6f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776730a373ff1a4478a1800812a078a3
+      internalID: -1821875922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1440
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf294d5a27a58b46a9125b8e238edb5
+      internalID: 2135251881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1440
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5667a78c2171f0c48aa2e40bf218769b
+      internalID: -823696228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1440
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded254b3180681e49945ab6a1888b193
+      internalID: 182816060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1440
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400c06ffbdc90e444869b93256392589
+      internalID: -506120930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1440
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38a816efd81d3d4187467c4aa976934
+      internalID: -1994665495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7020a4b1eaca6e4390f15cd276b3944
+      internalID: 142847584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca94bbec25c00bc4c85391d00237e46c
+      internalID: -2120977166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3477683abfd33d644907078a1ce9a10b
+      internalID: -1432889255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34402408e7f8c804c8d54bba23fb1f08
+      internalID: 463424647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1280
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb44add0c1f6f84d816e480095b2500
+      internalID: 1738019556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_11
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981f14eaa8a1ca54b84568f05d9a180d
+      internalID: -5382323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a524fd4cd431647af0ba18ad8980f9
+      internalID: -1570571300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1120
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b6b62342809924998038c777dfbf4f
+      internalID: 298993631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1120
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4818dd39fcb00f41873e6497db2b5b8
+      internalID: -1016620342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1120
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8740e1aa2d98e8d4ebc39a4fb31c041b
+      internalID: -1209110537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1120
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfde84a2a702bd14bac58dd0fe59f177
+      internalID: -502917811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_17
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1120
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7636fe0be7d125042a9b6f888b867692
+      internalID: -1159445505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5186278370274b14bb0040b80d832b25
+      internalID: 1346376625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce68b47ae4c7174d8cbc0e77376b07e
+      internalID: 888441656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75865886cc1e6349b3b26e021950ab9
+      internalID: -508680021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 960
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb66216ed6bae0f45801853b60bae7c0
+      internalID: -1883370587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 960
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c0eb787bb4b6847af3c3d901f4c5a6
+      internalID: -508543416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_23
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 960
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40208f504e3b0c549a1e13a2a78a6bae
+      internalID: -248055777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf25b2b489496947bf350a6bd240a8d
+      internalID: -1699430980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 800
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53984a2d1c761864c9be589aec120541
+      internalID: 1795480690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 800
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b2d8875b6aa4e4b8cd32c6eceef00b
+      internalID: 1904608726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 800
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453991d670c2dae4cb76d858702748aa
+      internalID: 222335512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 800
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92aa2c8e82bead4982f9798146d154b
+      internalID: 989951264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_29
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 800
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13b7129711f258479f54848d1bd2b71
+      internalID: 719618266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29888e4b88fa8d340b161ba744684313
+      internalID: -2129413882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_31
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0098f633d732fc145b4cfed7e185d629
+      internalID: -1111744926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d56efcd60b593048b23fe3d5907a275
+      internalID: -1053194194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_33
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6b7f729318c25419b107549c68dab2
+      internalID: 1666622154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_34
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2b8b4273346974d848ff50f7bab0d6
+      internalID: 1987532189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_35
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd7df215db124248b8193d89a308770
+      internalID: 209495104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34b058fbb89a424f816e62735cda62d
+      internalID: -302437599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 480
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d70d31735620c74dae8e6e350fbb71c
+      internalID: 1902651373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 480
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dbc8c285093f848bdcf53fb618a4ab
+      internalID: 838492447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_39
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 480
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd33f09428cd3cb4cac29aeba2a03c14
+      internalID: 945232891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_40
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 480
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f6e68d86dcaf347a939e0ee5bd3d7e
+      internalID: -510666856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_41
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 480
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5ee5f476e1ce74c9cb8f7352781e84
+      internalID: 840085608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dcd45acbe722b48a3854260433d6cf
+      internalID: -418498494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3ebb05adb8f274ea68c7b574254c0b
+      internalID: -513748670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6a49d6a24fade4abe225de6178fb0a
+      internalID: -816501005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_45
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128dc697e9f96a04dac639c877d3fcad
+      internalID: -1119807611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_46
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 320
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbaa1b5a8673ff84f80ba5b11f6221f5
+      internalID: 2070614523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_47
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 320
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9fbee6e4c5708488d8ce1cf2c88aa9
+      internalID: -445896523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0950b94d239218142b904eaeecd508c6
+      internalID: 1195601254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbcd0d270418af4684b3541b71d1cff
+      internalID: -1667360991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_50
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 160
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16bd434344eb554080d85d60c9405a1
+      internalID: 1491861325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 160
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5070ca8dcd5953046b01d520fcf857ec
+      internalID: -1378289076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_52
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 160
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632cd28a5c6875e4abdf2769c0c04e18
+      internalID: -1377248307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_53
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 160
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006e22c703118f14cb5a4722f75f30a5
+      internalID: 1216987427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2bef558ee71fc41ab19c1a3a52c620
+      internalID: -11192161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_55
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdc93d42f7512f4c840a71b94de7fab
+      internalID: 1490563035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbe43d6477e003489a0c3cb6527dc01
+      internalID: 378031825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_57
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ffcb6abe7856b438eb5864f50f3feb
+      internalID: -2113122857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_58
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894aa5f7c73c8fe428eeabc105a304e5
+      internalID: 596606382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level4_SpriteSheet_6x10_59
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb21deb4680d91140996a915b6423b12
+      internalID: 650374273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Level4_SpriteSheet_6x10_46: 2070614523
+      Level4_SpriteSheet_6x10_18: 1346376625
+      Level4_SpriteSheet_6x10_5: -1994665495
+      Level4_SpriteSheet_6x10_52: -1377248307
+      Level4_SpriteSheet_6x10_11: -5382323
+      Level4_SpriteSheet_6x10_16: -502917811
+      Level4_SpriteSheet_6x10_54: -11192161
+      Level4_SpriteSheet_6x10_37: 1902651373
+      Level4_SpriteSheet_6x10_58: 596606382
+      Level4_SpriteSheet_6x10_28: 989951264
+      Level4_SpriteSheet_6x10_12: -1570571300
+      Level4_SpriteSheet_6x10_31: -1111744926
+      Level4_SpriteSheet_6x10_8: -1432889255
+      Level4_SpriteSheet_6x10_57: -2113122857
+      Level4_SpriteSheet_6x10_10: 1738019556
+      Level4_SpriteSheet_6x10_7: -2120977166
+      Level4_SpriteSheet_6x10_44: -816501005
+      Level4_SpriteSheet_6x10_59: 650374273
+      Level4_SpriteSheet_6x10_48: 1195601254
+      Level4_SpriteSheet_6x10_56: 378031825
+      Level4_SpriteSheet_6x10_13: 298993631
+      Level4_SpriteSheet_6x10_51: -1378289076
+      Level4_SpriteSheet_6x10_23: -248055777
+      Level4_SpriteSheet_6x10_0: -1821875922
+      Level4_SpriteSheet_6x10_3: 182816060
+      Level4_SpriteSheet_6x10_29: 719618266
+      Level4_SpriteSheet_6x10_40: -510666856
+      Level4_SpriteSheet_6x10_33: 1666622154
+      Level4_SpriteSheet_6x10_41: 840085608
+      Level4_SpriteSheet_6x10_50: 1491861325
+      Level4_SpriteSheet_6x10_14: -1016620342
+      Level4_SpriteSheet_6x10_2: -823696228
+      Level4_SpriteSheet_6x10_20: -508680021
+      Level4_SpriteSheet_6x10_21: -1883370587
+      Level4_SpriteSheet_6x10_36: -302437599
+      Level4_SpriteSheet_6x10_35: 209495104
+      Level4_SpriteSheet_6x10_25: 1795480690
+      Level4_SpriteSheet_6x10_30: -2129413882
+      Level4_SpriteSheet_6x10_4: -506120930
+      Level4_SpriteSheet_6x10_32: -1053194194
+      Level4_SpriteSheet_6x10_19: 888441656
+      Level4_SpriteSheet_6x10_49: -1667360991
+      Level4_SpriteSheet_6x10_22: -508543416
+      Level4_SpriteSheet_6x10_53: 1216987427
+      Level4_SpriteSheet_6x10_6: 142847584
+      Level4_SpriteSheet_6x10_42: -418498494
+      Level4_SpriteSheet_6x10_39: 945232891
+      Level4_SpriteSheet_6x10_9: 463424647
+      Level4_SpriteSheet_6x10_34: 1987532189
+      Level4_SpriteSheet_6x10_26: 1904608726
+      Level4_SpriteSheet_6x10_27: 222335512
+      Level4_SpriteSheet_6x10_15: -1209110537
+      Level4_SpriteSheet_6x10_55: 1490563035
+      Level4_SpriteSheet_6x10_38: 838492447
+      Level4_SpriteSheet_6x10_45: -1119807611
+      Level4_SpriteSheet_6x10_17: -1159445505
+      Level4_SpriteSheet_6x10_43: -513748670
+      Level4_SpriteSheet_6x10_1: 2135251881
+      Level4_SpriteSheet_6x10_24: -1699430980
+      Level4_SpriteSheet_6x10_47: -445896523
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

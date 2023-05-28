@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3241654463882700768
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 396396448654764924, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_Name
+      value: L3-ParallelWithoutSwitch
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4861179125994857329, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+--- !u!1 &2989514903133523100 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 396396448654764924, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+  m_PrefabInstance: {fileID: 3241654463882700768}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6023025452207947000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2989514903133523100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6867dffe047e6d64cb6aa44db3611b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Notes>k__BackingField: " LEVEL 3: Parallel without switch\r\n\n\u25CB three bulbs
+    in parallel\r\n\n\u25CB Components present:\r\n\t\u25A0 1 Battery\r\n\t\u25A0
+    3 Bulbs\r\n\t\u25A0 7 L-Shaped Wires\r\n\t\u25A0 6 Straight Wires\r\n\t\u25A0
+    4 T-Shaped Wires\r\n\n\u25CB Win Condition:\r\n\t\u25A0 may ginamit na atleast
+    4 T-wire na nag ON\r\n\t\u25A0 3 bulbs light up\r\n\t\u25A0 walang wire na walang
+    connection (open circuit)"
+  _hint: "LEVEL 3\nA <color=red>Parallel Circuit</color> happens when components
+    are separated into two or more\r\nbranches. Try to use the \u201CT\u201D wire
+    to make another branch.\r"
+  _hintAnimation:
+  - {fileID: 1133069353, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 857689412, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -327117423, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 1274783539, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -1512169821, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -1025507635, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 502272933, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -1736974890, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 1942274408, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -1229404696, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 1345641865, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 1742149418, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 2088693508, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 1678625256, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 1437603274, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -699573378, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -64180864, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 491642898, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 300954810, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 760368945, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 92508762, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 2016697551, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -1326821438, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 1436337661, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -1044918921, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 256101358, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -221091073, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -1007698096, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -667093402, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -1694853730, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 313943708, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 1344398245, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -1960775196, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 311068342, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -1887985491, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 41745888, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 985098073, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 1622576122, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -882645258, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -1509914667, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 1021441079, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 1154066745, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 1891578540, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 70601020, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 1615191230, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -363634658, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 168093593, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -10784237, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -176455836, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -942090469, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -951817229, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 2058617137, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -1375906661, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -1828046624, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 1924300298, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -614897715, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 387091143, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 427613034, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -1848365313, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 798941451, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -355148326, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -1654837097, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 1689232345, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 692787600, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: 1907390963, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  - {fileID: -1996726618, guid: e44b46b6cb0827347817b414eec022c1, type: 3}
+  _hintClip: {fileID: 8300000, guid: 0330b1d43c213b24791f93abd31a355b, type: 3}
+  _items:
+  - name: Battery
+    icon: {fileID: 21300000, guid: 9b376edb966eec64ead6511d6907012d, type: 3}
+    prefab: {fileID: 8945937470114469258, guid: dbe48355effaf0147907d31de0668437, type: 3}
+    maxCount: 1
+  - name: Bulb
+    icon: {fileID: 21300000, guid: c043e01236b0d694d9581f20ef329423, type: 3}
+    prefab: {fileID: 3712007781911330562, guid: 556c7c6186a301a49920c706ff40ae35, type: 3}
+    maxCount: 3
+  - name: L Shaped Wire
+    icon: {fileID: 21300000, guid: 09955e1424b4f4a4cb7ae8d833e45d45, type: 3}
+    prefab: {fileID: 2845026194113854133, guid: f6283d19ec218ef48a9e55527d7ef060, type: 3}
+    maxCount: 7
+  - name: Straight Wire
+    icon: {fileID: 21300000, guid: f62fc6883382daf47928fd390961db45, type: 3}
+    prefab: {fileID: 5887655683933869780, guid: 1361e606da4a6aa42a069b233d8407b2, type: 3}
+    maxCount: 6
+  - name: T Shaped Wire
+    icon: {fileID: 21300000, guid: 6de4ccae4c9d0264e8cc1d8d25bf2f15, type: 3}
+    prefab: {fileID: 458862462919676716, guid: 8f36e794ee5397e418c8448add3b9918, type: 3}
+    maxCount: 4
+  _log: 
+  _tWireId: tWire
+  _numberOfTWires: 4
+  _numberOfLoops: 3
+  _bulbId: defaultLoad

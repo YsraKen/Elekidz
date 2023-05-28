@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,14 +11,12 @@ namespace ChargeMeUp.Experimental.Electronics
 		
 		public Gradient indicatorGradient;
 		
-		[Space]
-		[SerializeField] GameObject explosionAnimation;
-		[SerializeField] float explosionAnimationDuration = 1f;
-		[SerializeField] GameObject explodeEffectTestA, explodeEffectTestB;
-		[SerializeField] int explodeEffectTestFrameCount = 2;
+		public List<IElectronPath> ElectronPathInstances { get; private set; } = new List<IElectronPath>();
+		public List<Source> SourceInstances { get; private set; } = new List<Source>();
 		
-		List<IElectronPath> electronPathInstances = new List<IElectronPath>();
-		List<Source> sourceInstances = new List<Source>();
+		public Action onTickFinished;
+		
+		public bool checkForOpenNodes { get; set; }
 		
 		static CircuitManager instance;
 		public static CircuitManager Instance
@@ -42,12 +41,14 @@ namespace ChargeMeUp.Experimental.Electronics
 				yield return ResetElectronPaths();
 				yield return TickSources();
 				yield return TickLoads();		
+				
+				onTickFinished?.Invoke();
 			}
 		}
 		
 		IEnumerator ResetElectronPaths()
 		{
-			foreach(var ep in electronPathInstances)
+			foreach(var ep in ElectronPathInstances)
 				ep?.OnReset();
 			
 			yield return null;
@@ -55,15 +56,20 @@ namespace ChargeMeUp.Experimental.Electronics
 		
 		IEnumerator TickSources()
 		{
-			foreach(var s in sourceInstances)
-				s?.OnTick();
+			foreach(var s in SourceInstances)
+			{
+				if(!s) continue;
+				
+				s.checkForOpenNodes = this.checkForOpenNodes;
+				s.OnTick();
+			}
 			
 			yield return null;
 		}
 		
 		IEnumerator TickLoads()
 		{
-			foreach(var ep in electronPathInstances)
+			foreach(var ep in ElectronPathInstances)
 			{
 				if(ep == null) continue;
 				
@@ -76,27 +82,37 @@ namespace ChargeMeUp.Experimental.Electronics
 		
 		public void AddInstance(IElectronPath instance)
 		{
-			if(!electronPathInstances.Contains(instance))
-				electronPathInstances.Add(instance);
+			if(!ElectronPathInstances.Contains(instance))
+				ElectronPathInstances.Add(instance);
 		}
 		
 		public void RemoveInstance(IElectronPath instance)
 		{
-			if(electronPathInstances.Contains(instance))
-				electronPathInstances.Remove(instance);
+			if(ElectronPathInstances.Contains(instance))
+				ElectronPathInstances.Remove(instance);
 		}
 		
 		public void AddInstance(Source instance)
 		{
-			if(!sourceInstances.Contains(instance))
-				sourceInstances.Add(instance);
+			if(!SourceInstances.Contains(instance))
+				SourceInstances.Add(instance);
 		}
 		
 		public void RemoveInstance(Source instance)
 		{
-			if(sourceInstances.Contains(instance))
-				sourceInstances.Remove(instance);
+			if(SourceInstances.Contains(instance))
+				SourceInstances.Remove(instance);
 		}
+		
+		#region ------------------TEST------------------
+		
+		// Temporary
+		
+		[Space]
+		[SerializeField] GameObject explosionAnimation;
+		[SerializeField] float explosionAnimationDuration = 1f;
+		[SerializeField] GameObject explodeEffectTestA, explodeEffectTestB;
+		[SerializeField] int explodeEffectTestFrameCount = 2;
 		
 		public void PlayExplosionAnimationAtPosition(Vector3 position)
 		{
@@ -126,5 +142,7 @@ namespace ChargeMeUp.Experimental.Electronics
 				explosionAnimation.SetActive(false);
 			}
 		}
+		
+		#endregion
 	}
 }

@@ -14,12 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerProgress:
     levels:
-    - completed: 0
-      time: 0
-    - completed: 0
-      time: 0
-    - completed: 0
-      time: 0
+    - completed: 1
+      time: 87.514336
+    - completed: 1
+      time: 87.514336
     - completed: 0
       time: 0
     - completed: 0
@@ -27,9 +25,9 @@ MonoBehaviour:
     - completed: 0
       time: 0
   levelScenes:
-  - ChargeMeUpGameplay
-  - ChargeMeUpGameplay
-  - ChargeMeUpGameplay
-  - ChargeMeUpGameplay
-  - ChargeMeUpGameplay
-  - ChargeMeUpGameplay
+  - ChargeMeUpGameplay 1
+  - ChargeMeUpGameplay 2
+  - ChargeMeUpGameplay 3
+  - ChargeMeUpGameplay 4
+  - ChargeMeUpGameplay 5
+  - ChargeMeUpGameplay 6

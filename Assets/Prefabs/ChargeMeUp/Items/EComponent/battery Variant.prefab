@@ -146,6 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _energizedGpx: {fileID: 0}
   <myComponent>k__BackingField: {fileID: 0}
+  <Type>k__BackingField: 0
 --- !u!1 &8945937470114469260 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1532062464141676802, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
@@ -163,6 +164,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ae2250b2a7c4314394239767a7bb11b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _canvasGroup: {fileID: 0}
+  _highlight: {fileID: 0}
+  <ComponentId>k__BackingField: defaultSource
   voltage: 10
   node: {fileID: 2217716327220831741}
   pathInfos: []

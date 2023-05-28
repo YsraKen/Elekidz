@@ -9,6 +9,7 @@ namespace FixerUpper
 	public class Tooled : Interactable, IPointerEnterHandler, IPointerExitHandler, IDropHandler
 	{
 		[field: SerializeField] public Tool targetTool { get; set; }
+		public void SetTargetTool(Tool target) => targetTool = target;
 		
 		[SerializeField] private float _interactionDuration;
 		[SerializeField] private Highlight _highlight;

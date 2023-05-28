@@ -12,7 +12,7 @@ using Random = UnityEngine.Random;
 
 namespace ChargeMeUp.Experimental.Electronics
 {
-	public class Load : MonoBehaviour, IElectronPath
+	public class Load : Component, IElectronPath
 	{
 		public float resistance;
 		[SerializeField] float maxAmpereRating = 1;
@@ -24,7 +24,7 @@ namespace ChargeMeUp.Experimental.Electronics
 		
 		public Node[] nodes;
 		
-		bool isEnergized;
+		public bool IsEnergized { get; private set; }
 		
 		public float Voltage { get; private set; }
 		public float Amperes { get; private set; }
@@ -63,7 +63,7 @@ namespace ChargeMeUp.Experimental.Electronics
 			if(!Application.isPlaying)
 				return;
 			
-			if(!isEnergized) return;
+			if(!IsEnergized) return;
 			if(Amperes <= 0f) return;
 			
 			float lerpValue = Mathf.Clamp01(AmperesNormalized);
@@ -93,11 +93,25 @@ namespace ChargeMeUp.Experimental.Electronics
 			
 			else pathInfo.Add(this);
 			
-			isEnergized = true;
+			IsEnergized = true;
+			
+			/* bool isNodeExistsInPath = false;
+			
+			foreach(var node in nodes)
+			{
+				isNodeExistsInPath = pathInfo.elements.Contains(node);
+				if(isNodeExistsInPath) break;
+			}
+			
+			if(isNodeExistsInPath)
+				return; */
 			
 			foreach(var node in nodes)
 			{
 				if(node == sourceNode)
+					continue;
+				
+				if(pathInfo.elements.Contains(node as IElectronPath))
 					continue;
 				
 				var infoElementsCopy = new List<IElectronPath>(pathInfo.elements);
@@ -152,7 +166,7 @@ namespace ChargeMeUp.Experimental.Electronics
 		
 		public void OnReset()
 		{
-			isEnergized = false;
+			IsEnergized = false;
 			
 			Voltage = 0f;
 			Amperes = 0f;
@@ -161,7 +175,7 @@ namespace ChargeMeUp.Experimental.Electronics
 		void UpdateGpx()
 		{
 			#region Toggle Objects
-			if(energized) energized.SetActive(isEnergized);
+			if(energized) energized.SetActive(IsEnergized);
 			
 			bool isStateActive = AmperesNormalized >= targetAmpereRatingNormalized;
 

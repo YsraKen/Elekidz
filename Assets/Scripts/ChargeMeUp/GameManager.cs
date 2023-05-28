@@ -10,6 +10,9 @@ namespace ChargeMeUp
 {
 	public class GameManager : MonoBehaviour
 	{
+		// [SerializeField] private Level[] _levels;
+		[SerializeField] private Level level;
+		
 		[SerializeField] private float _startDelay = 2f;
 		[SerializeField] private GameObject _inputsOverlay;
 		
@@ -20,26 +23,34 @@ namespace ChargeMeUp
 		public bool isTimerActive { get; set; }
 		private float _currentTime;
 		
-		[SerializeField] private ItemInfo[] _itemInfos;
+		[Space]
+		public ItemInfo[] itemInfos;
+		[SerializeField] private ItemContainer[] _itemContainers;
 		[SerializeField] private Transform _itemSpawnPoint;
 		
 		[SerializeField] private Slot[] _slots;
 		
 		public List<Item> ItemInstances { get; private set; } = new List<Item>();
 		
-		[field: SerializeField] public Transform DefaultDragParent { get; private set; }
+		[field: SerializeField, Space] public Transform DefaultDragParent { get; private set; }
+		
 		[SerializeField] private Button _resetButton, _deleteButton, _rotateButton;
 		[SerializeField] private TMP_Text _deleteButtonTxt;
 		
 		[Space]
 		[SerializeField] private GameObject _messagePanel;
 		[SerializeField] private TMP_Text _messageTxt;
-		[SerializeField] private string _homeScene = "MainMenu";
 		
 		public enum MessageType { Normal, Warning, Error }
 		private const int NUM_OF_MSG_TYPE = 3;
 		
 		[SerializeField] private GameObject[] _messageTypeObjects = new GameObject[NUM_OF_MSG_TYPE];
+		
+		[Space]
+		[SerializeField] private TMP_Text _hintTxt;
+		[SerializeField] private SpriteSheetAnimationUI _hintAnimation;
+		
+		private AudioClip _hintClip;
 		
 		[Space]
 		[SerializeField] private AudioClip _wrongSound;
@@ -51,14 +62,17 @@ namespace ChargeMeUp
 		[SerializeField] private TMP_Text _totalTimeTxt;
 		[SerializeField] private LevelManager _levelManager;
 		
+		[SerializeField] private GameObject m_musicPlayer;
+		private static GameObject _musicPlayer;
+		
 		public static int selectedLevelIndex;
 		
 		public static GameManager Instance { get; private set; }
 		
 		private void OnValidate()
 		{
-			foreach(var info in _itemInfos)
-				info.InitializeUI();
+			for(int i = 0; i < itemInfos.Length; i++)
+				itemInfos[i].InitializeUI(_itemContainers[i]);
 		}
 		
 		private void Awake()
@@ -67,6 +81,21 @@ namespace ChargeMeUp
 			_audioSource = GetComponent<AudioSource>();
 			
 			_levelManager.LoadData();
+			
+			// for(int i = 0; i < _levels.Length; i++)
+				// _levels[i].gameObject.SetActive(i == selectedLevelIndex);
+			
+			if(level)
+				level.gameObject.SetActive(true);
+			
+			if(_musicPlayer)
+				Destroy(m_musicPlayer);
+			
+			else
+			{
+				_musicPlayer = m_musicPlayer;
+				DontDestroyOnLoad(_musicPlayer);
+			}
 		}
 		
 		private IEnumerator Start()
@@ -75,8 +104,10 @@ namespace ChargeMeUp
 			_deleteButton.interactable = false;
 			_rotateButton.interactable = false;
 			
-			foreach(var info in _itemInfos)
-				info.InitializeUI();
+			yield return null;
+			
+			for(int i = 0; i < itemInfos.Length; i++)
+				itemInfos[i].InitializeUI(_itemContainers[i]);
 			
 			// Start Delay
 			_inputsOverlay.SetActive(true);
@@ -111,7 +142,7 @@ namespace ChargeMeUp
 				return;
 			}
 			
-			var item = _itemInfos[index].InstantiatePrefab(_itemSpawnPoint);
+			var item = itemInfos[index].InstantiatePrefab(_itemSpawnPoint);
 			
 			if(item)
 			{
@@ -155,6 +186,7 @@ namespace ChargeMeUp
 			{
 				var item = selectedObjects[i] as Item;
 				if(!item) continue;
+				if(!item.enabled) continue;
 				
 				selection.Deselect(item);
 				ItemInstances.Remove(item);
@@ -170,7 +202,12 @@ namespace ChargeMeUp
 			Selection.Instance.DeselectAll();
 			
 			for(int i = 0; i < ItemInstances.Count; i++)
-				Destroy(ItemInstances[i].gameObject);
+			{
+				var item = ItemInstances[i];
+				
+				if(item.enabled)
+					Destroy(item.gameObject);
+			}
 			
 			ItemInstances.Clear();
 			OnItemInstancesModified();
@@ -184,7 +221,7 @@ namespace ChargeMeUp
 				yield return null;
 				
 				// Check for infos
-				foreach(var info in _itemInfos)
+				foreach(var info in itemInfos)
 					info.RecheckInstances();
 				
 				_resetButton.interactable = ItemInstances.Count > 0;
@@ -218,6 +255,8 @@ namespace ChargeMeUp
 		[ContextMenu("Game Over")]
 		public void GameOver()
 		{
+			if(!Application.isPlaying) return;
+			
 			isTimerActive = false;
 			_gameOver.SetActive(true);
 			
@@ -232,7 +271,20 @@ namespace ChargeMeUp
 			_levelManager.playerProgress?.SaveData();
 		}
 		
-		public void MainMenu() => SceneManager.LoadScene(_homeScene);
+		public void SetHint(string text, Sprite[] frames, AudioClip clip)
+		{
+			_hintTxt.text = text;
+			_hintAnimation.sprites = frames;
+			_hintClip = clip;
+		}
+		
+		public void ReadHint()
+		{
+			_audioSource.clip = _hintClip;
+			
+			_audioSource.Stop();
+			_audioSource.Play();
+		}
 		
 		public void NextLevel()
 		{
@@ -243,6 +295,15 @@ namespace ChargeMeUp
 			
 			else
 				MainMenu();
+		}
+		
+		public void MainMenu()
+		{
+			if(_musicPlayer)
+				Destroy(_musicPlayer);
+			
+			string sceneName = _levelManager.menuScene;
+			SceneManager.LoadScene(sceneName);
 		}
 	}
 }

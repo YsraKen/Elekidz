@@ -394,17 +394,17 @@ namespace FixerUpper
 			
 			if(!checkForHighScore)
 			{
-				SceneManager.LoadScene("MainMenu");
+				SceneManager.LoadScene(_homeScene);
 				return;
 			}
 			
 			int levelIndex = _levelManager.PlayerProgress.currentLevelIndex;
 			
 			if(_newHighScore)
-				RecordNewHighScoreData(onDone: ()=> SceneManager.LoadScene("MainMenu"));
+				RecordNewHighScoreData(onDone: ()=> SceneManager.LoadScene(_homeScene));
 			
 			else
-				SceneManager.LoadScene("MainMenu");
+				SceneManager.LoadScene(_homeScene);
 		}
 		
 		#endregion

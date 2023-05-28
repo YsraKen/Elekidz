@@ -55,6 +55,8 @@ namespace ChargeMeUp
 			SceneManager.LoadScene(scene);
 		}
 		
+		public void LoadScene(string name) => SceneManager.LoadScene(name);
+		
 		public void OnExitButton() => SceneManager.LoadScene(_mainMenuScene);
 	}
 }

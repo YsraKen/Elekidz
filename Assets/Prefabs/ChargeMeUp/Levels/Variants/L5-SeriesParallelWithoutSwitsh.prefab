@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7431530363526537468
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 396396448654764924, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_Name
+      value: L5-SeriesParallelWithoutSwitsh
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 701394181648692174, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4861179125994857329, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+--- !u!1 &7107332246407498624 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 396396448654764924, guid: 2f0453eebbaeafc4d869099c783c259a, type: 3}
+  m_PrefabInstance: {fileID: 7431530363526537468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1644899552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7107332246407498624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16935d90b843d442b535f6787384e77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Notes>k__BackingField: "LEVEL 5: Series Parallel without switch\r\n\r\n\u25CB
+    two bulbs in series, one bulb in parallel to the two\r\n\r\n\u25CB Components
+    present:\r\n\t\u25A0 1 Battery\r\n\t\u25A0 3 Bulbs\r\n\t\u25A0 6 L-Shaped Wires\r\n\t\u25A0
+    6 Straight Wires\r\n\t\u25A0 2 T-Shaped Wires\r\n\t\r\n\u25CB Win Condition:\r\n\t\u25A0
+    may ginamit na atleast 2 T-wire na nag ON\r\n\t\u25A0 3 bulbs light up\r\n\t\u25A0
+    walang wire na walang connection (open circuit)"
+  _hint: 'LEVEL 5
+
+    This circuit is a combination of a <color=red><b>Series</b></color>
+    and <color=red><b>Parallel</b></color> Circuit. Try having <color=blue><b>2</b></color>
+    branches with <color=blue>one</color> of them having a <color=blue>series</color>
+    connection'
+  _hintAnimation:
+  - {fileID: -915616330, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 1358651736, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -1998886248, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -1868981697, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 785725932, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -275574760, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 1812085432, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 819612267, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -986930278, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 1451435908, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 908910740, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 100491707, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 919656817, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -1229097851, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -711132536, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 843374482, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 820627549, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -1570912818, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 1400423333, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -1258852640, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 954114195, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -1442408518, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -1775674785, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 785934503, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -390562183, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 225032634, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -1152389856, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 636775644, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 1054087440, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 1916753504, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -484641564, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -1581569886, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 1426676074, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 1594412952, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 823791274, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 472558435, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 1840430038, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -2050808718, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 119765098, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 10268776, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -1071716176, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 814221993, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -507094838, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -120448726, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -798457292, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 1250216011, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -2056793932, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 766779167, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -1480710339, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 1980021056, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 486285747, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -2133633848, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 2012148111, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 1842072475, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 524493165, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 416138716, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -1596479495, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -573140786, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -275842372, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 741942697, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: 1538906305, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -363749531, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -1028337323, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -187034520, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  - {fileID: -456648317, guid: 4389acbc27d104b4aa59a5283ea6a2a9, type: 3}
+  _hintClip: {fileID: 8300000, guid: a2461649de2fc3141be3f1824f754f4f, type: 3}
+  _items:
+  - name: Battery
+    icon: {fileID: 21300000, guid: 9b376edb966eec64ead6511d6907012d, type: 3}
+    prefab: {fileID: 8945937470114469258, guid: dbe48355effaf0147907d31de0668437, type: 3}
+    maxCount: 1
+  - name: Bulb
+    icon: {fileID: 21300000, guid: c043e01236b0d694d9581f20ef329423, type: 3}
+    prefab: {fileID: 3712007781911330562, guid: 556c7c6186a301a49920c706ff40ae35, type: 3}
+    maxCount: 3
+  - name: L Shaped Wire
+    icon: {fileID: 21300000, guid: 09955e1424b4f4a4cb7ae8d833e45d45, type: 3}
+    prefab: {fileID: 2845026194113854133, guid: f6283d19ec218ef48a9e55527d7ef060, type: 3}
+    maxCount: 6
+  - name: Straight Wire
+    icon: {fileID: 21300000, guid: f62fc6883382daf47928fd390961db45, type: 3}
+    prefab: {fileID: 5887655683933869780, guid: 1361e606da4a6aa42a069b233d8407b2, type: 3}
+    maxCount: 6
+  - name: T Shaped Wire
+    icon: {fileID: 21300000, guid: 6de4ccae4c9d0264e8cc1d8d25bf2f15, type: 3}
+    prefab: {fileID: 458862462919676716, guid: 8f36e794ee5397e418c8448add3b9918, type: 3}
+    maxCount: 2
+  _log: 
+  _tWireId: tWire
+  _numberOfTWires: 2
+  _numberOfLoops: 2
+  _numberOfBulbs: 3
+  _bulbId: defaultLoad

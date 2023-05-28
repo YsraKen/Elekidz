@@ -8,6 +8,7 @@ namespace ChargeMeUp.Experimental.Electronics
 	public class Node : MonoBehaviour, IElectronPath
 	{
 		public bool IsEnergized { get; private set; }
+		public bool IsOpenEnded { get; private set; }
 		
 		[SerializeField] GameObject _energizedGpx;
 		
@@ -26,11 +27,13 @@ namespace ChargeMeUp.Experimental.Electronics
 		
 		public void Ping(PingType type, Source source, PathInfo pathInfo)
 		{
+			pathInfo.Add(this);
+			
 			// Termination (failed)	
-			if(pathInfo.Contains(this))
+			/* if(pathInfo.Contains(this))
 				return;
 			
-			else pathInfo.Add(this);
+			else pathInfo.Add(this); */
 			
 			// Termination (success)
 			IsEnergized = true;
@@ -52,6 +55,8 @@ namespace ChargeMeUp.Experimental.Electronics
 					
 					var connected = GetConnectedNode();
 						connected?.Ping(PingType.Ingoing, source, pathInfo);
+					
+					IsOpenEnded = !connected;
 					
 					break;
 			}
@@ -102,6 +107,10 @@ namespace ChargeMeUp.Experimental.Electronics
 				_energizedGpx.SetActive(IsEnergized);
 		}
 		
-		public void OnReset() => IsEnergized = false;
+		public void OnReset()
+		{
+			IsEnergized = false;
+			IsOpenEnded = false;
+		}
 	}
 }

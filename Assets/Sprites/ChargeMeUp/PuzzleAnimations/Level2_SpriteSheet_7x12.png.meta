@@ -1,0 +1,1873 @@
+fileFormatVersion: 2
+guid: 7ddeed6813241c44fbdb68e4a31298a0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1760
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7785c04eb9a559f46adb033ec48b3525
+      internalID: -1545934414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1760
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0a4ac932ab03247a2df198453d3ac2
+      internalID: -41520880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1760
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c19e6d84531574ab6fc3210e900ec4
+      internalID: -996416509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1760
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5034fee0bdbc98c43911aac085d859d3
+      internalID: 666594837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1760
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84615778e2c7cb4d87136d8b883838c
+      internalID: 1507333835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1760
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7f510fb0148af409ba1482a65bd920
+      internalID: -1045101355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1760
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cbf9667ad91e04f994618dbac9cfe3
+      internalID: -1831511989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971f06299f1f9874498f66e0faf5881c
+      internalID: 1047775863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1600
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a978a9bf1f68eb247bb2a0a8ec045dbf
+      internalID: 733421310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1600
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af09dcfe30e9f3b42b014d57c902321a
+      internalID: 910299295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1600
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64553d697a2982c43918f6165857483f
+      internalID: -242276917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_11
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1600
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39095cfb354560d46b0781fad3604f73
+      internalID: 1943278919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_12
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1600
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df36e829b19894645ac1f4f3df2082c4
+      internalID: 670208398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_13
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1600
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbd8c8721e87dc4fb372da991e77ca0
+      internalID: 2121889619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ce325f487e67d40a7d0ee2bb038d3a
+      internalID: -334975031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1440
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf6e2e9ada33b641b06463b22c4bc98
+      internalID: 111057435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1440
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fb037204a68394481edccd38f7f8f0
+      internalID: 1052655604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_17
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1440
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff5828da09ad1b4496a124d8f298a75
+      internalID: -1960262083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1440
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f4a080ca804ec449943451e5c0ce8d
+      internalID: 329251482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_19
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1440
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda20d60701c8944fbf80c593725b8ad
+      internalID: -1446379847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_20
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1440
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93eaf3ecd4a6eda478c56597cbc3e103
+      internalID: 2039336831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3bdd87fc14c96418b72c8eb727a91c
+      internalID: 1352936013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deae50bcd457a7743bf543622e547c70
+      internalID: 580411385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_23
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfb37756e509be4489b5508a6a9cbc6
+      internalID: -38610934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebb5a8c81668ce4e9e8d2d575c6428f
+      internalID: -893308986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_25
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1280
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b72e0a9beb6c84e836fdbc3e8224bc
+      internalID: -108807861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_26
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfa6444ad105d544b21385f00622f6a
+      internalID: -1487227823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1280
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2335bfab4a5b859479334aca5275768a
+      internalID: 2054250856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4582d89cad9afa5458b174b8858e68d4
+      internalID: -1871466881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1120
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc75c3dd72d4a5f4780552ad68bb114f
+      internalID: 331472443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_30
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1120
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425b94150d75d4445b21bc4916a2856f
+      internalID: -1575854740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_31
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1120
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4208097a5fc00d746a5e8d1c3b50faa2
+      internalID: 2092517180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_32
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1120
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb2d81f00cb22f41bc1e1b1edebdeaf
+      internalID: 2006102911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_33
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1120
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9676c273491c1aa4ab6eded297ed079c
+      internalID: 460859634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_34
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1120
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014d3145e467f9f4aa51e1f98baad479
+      internalID: -1203433980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50937b5568d756c4a9d745ac2812ee10
+      internalID: -1089919089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059d14bb38fcb5f499be884ad99b9b6d
+      internalID: -1938813685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_37
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c7fdff06c04aa4086d22879e6fc44e
+      internalID: -1474594230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 960
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02da269258a4fc64c9be21ea1a5a32f3
+      internalID: -1277999112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_39
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 960
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44f3b0c0bddd934ea4175c2622c6d75
+      internalID: -1536849268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_40
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 960
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b24f94df17c5c34195e509e0fb279ad
+      internalID: 310655098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_41
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 960
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93bb029573cd1544bca01db1e341b15
+      internalID: 1336444508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e04140cec7f774e943b5ec4751e292
+      internalID: -2055801030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 800
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3707909f31b07854a972f299a7155c1d
+      internalID: 979724140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 800
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc6602e7874a4144896ff0c2a058d10
+      internalID: 275168297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_45
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 800
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0410f2c3a67032b4fab6d83f9adca60a
+      internalID: -66938880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_46
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 800
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ee4f6cb649f6b43a3bb93980e704b9
+      internalID: -417661068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_47
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 800
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6757268255143744b0ef4d5c06999b6
+      internalID: 43544056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_48
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 800
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba17d7d3c216214f92bc549d4b33da2
+      internalID: -367851669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46740a9713e38184a9aa970c5f824d5d
+      internalID: 1788165322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1664cd53a18b0344891074c40ebde0e
+      internalID: -1051578580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_51
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1882f67b728404f479aa2fb5a0dc3d91
+      internalID: 1336935099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_52
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46412ba56d2a67241a441531ed6f99c8
+      internalID: -2007614111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_53
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42f58db368cf6e40a7d0fa7981db02e
+      internalID: -1252776322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_54
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d051edb6c4165c4b85d2aa319900fb1
+      internalID: -1394170731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_55
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40202bcd37e97d4ba117c77bda14fb7
+      internalID: -1410981000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31dface1d3459b945bfabd598e5d59f2
+      internalID: -1104999837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_57
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 480
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f5cb94aaba4bf41950b2a9da97dfd2
+      internalID: 1028120788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_58
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 480
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f13452d1dac424db66e0d92338e717
+      internalID: -112093639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_59
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 480
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c129acaaed0534d9c2c219693ef641
+      internalID: -1902490334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_60
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 480
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d0202f943bad6448e59f02050c932a
+      internalID: 1878404211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_61
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 480
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b33a7de2930c004181d864c3b31973b
+      internalID: -1827265780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_62
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 480
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89990521bbb6d14d842a5118311206e
+      internalID: -473394070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2371835d859c62a40a2c3fa258c11920
+      internalID: -1138322681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dceaf24f70216f4eaf3eb4a24b4e988
+      internalID: -1189502930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_65
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238f728f73daf954082a04aa2af302a7
+      internalID: -2021576729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b75c9500a05ae4f80345985beafc15
+      internalID: -1554656186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_67
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 320
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5420176f21298c488b3f03532d42e54
+      internalID: -1327118016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_68
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 320
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87eac632e826ba7498da4eb9a582ce3c
+      internalID: 590323441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_69
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 320
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1690e4e04bde9cc4baa5b35f536d926b
+      internalID: 870763875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121ac04a2a1a8f9459dd70a4577b974b
+      internalID: -520640725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_71
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498061a565ae81849b4cf6d32f776d0f
+      internalID: 291939973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_72
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 160
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca71b9d9f875274287dbb860d32ef6f
+      internalID: 81655895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_73
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 160
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ec7836677c9cd49871815efeb5b47b
+      internalID: 1620689842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_74
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 160
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631c7fc690fd79c4581cb1ea09de4cb3
+      internalID: 760059494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_75
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 160
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7527b07db4fe1479a764a51f11dfba
+      internalID: -1405739037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_76
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 160
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24dca3c26fd417468e1b218d5309dd1
+      internalID: 492942823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1838eeb8b0c54504199ae79c2ca11609
+      internalID: -49916911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level2_SpriteSheet_7x12_78
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d729809d4d018a342a3e45249d23b150
+      internalID: 41399638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Level2_SpriteSheet_7x12_58: -112093639
+      Level2_SpriteSheet_7x12_37: -1474594230
+      Level2_SpriteSheet_7x12_15: 111057435
+      Level2_SpriteSheet_7x12_42: -2055801030
+      Level2_SpriteSheet_7x12_54: -1394170731
+      Level2_SpriteSheet_7x12_9: 910299295
+      Level2_SpriteSheet_7x12_65: -2021576729
+      Level2_SpriteSheet_7x12_52: -2007614111
+      Level2_SpriteSheet_7x12_72: 81655895
+      Level2_SpriteSheet_7x12_78: 41399638
+      Level2_SpriteSheet_7x12_53: -1252776322
+      Level2_SpriteSheet_7x12_24: -893308986
+      Level2_SpriteSheet_7x12_61: -1827265780
+      Level2_SpriteSheet_7x12_75: -1405739037
+      Level2_SpriteSheet_7x12_59: -1902490334
+      Level2_SpriteSheet_7x12_74: 760059494
+      Level2_SpriteSheet_7x12_30: -1575854740
+      Level2_SpriteSheet_7x12_41: 1336444508
+      Level2_SpriteSheet_7x12_62: -473394070
+      Level2_SpriteSheet_7x12_1: -41520880
+      Level2_SpriteSheet_7x12_12: 670208398
+      Level2_SpriteSheet_7x12_5: -1045101355
+      Level2_SpriteSheet_7x12_40: 310655098
+      Level2_SpriteSheet_7x12_4: 1507333835
+      Level2_SpriteSheet_7x12_13: 2121889619
+      Level2_SpriteSheet_7x12_17: -1960262083
+      Level2_SpriteSheet_7x12_18: 329251482
+      Level2_SpriteSheet_7x12_20: 2039336831
+      Level2_SpriteSheet_7x12_29: 331472443
+      Level2_SpriteSheet_7x12_70: -520640725
+      Level2_SpriteSheet_7x12_68: 590323441
+      Level2_SpriteSheet_7x12_26: -1487227823
+      Level2_SpriteSheet_7x12_27: 2054250856
+      Level2_SpriteSheet_7x12_39: -1536849268
+      Level2_SpriteSheet_7x12_7: 1047775863
+      Level2_SpriteSheet_7x12_43: 979724140
+      Level2_SpriteSheet_7x12_47: 43544056
+      Level2_SpriteSheet_7x12_31: 2092517180
+      Level2_SpriteSheet_7x12_77: -49916911
+      Level2_SpriteSheet_7x12_57: 1028120788
+      Level2_SpriteSheet_7x12_48: -367851669
+      Level2_SpriteSheet_7x12_64: -1189502930
+      Level2_SpriteSheet_7x12_63: -1138322681
+      Level2_SpriteSheet_7x12_14: -334975031
+      Level2_SpriteSheet_7x12_2: -996416509
+      Level2_SpriteSheet_7x12_50: -1051578580
+      Level2_SpriteSheet_7x12_33: 460859634
+      Level2_SpriteSheet_7x12_34: -1203433980
+      Level2_SpriteSheet_7x12_35: -1089919089
+      Level2_SpriteSheet_7x12_25: -108807861
+      Level2_SpriteSheet_7x12_6: -1831511989
+      Level2_SpriteSheet_7x12_60: 1878404211
+      Level2_SpriteSheet_7x12_38: -1277999112
+      Level2_SpriteSheet_7x12_73: 1620689842
+      Level2_SpriteSheet_7x12_3: 666594837
+      Level2_SpriteSheet_7x12_28: -1871466881
+      Level2_SpriteSheet_7x12_76: 492942823
+      Level2_SpriteSheet_7x12_32: 2006102911
+      Level2_SpriteSheet_7x12_51: 1336935099
+      Level2_SpriteSheet_7x12_69: 870763875
+      Level2_SpriteSheet_7x12_44: 275168297
+      Level2_SpriteSheet_7x12_23: -38610934
+      Level2_SpriteSheet_7x12_49: 1788165322
+      Level2_SpriteSheet_7x12_16: 1052655604
+      Level2_SpriteSheet_7x12_8: 733421310
+      Level2_SpriteSheet_7x12_22: 580411385
+      Level2_SpriteSheet_7x12_46: -417661068
+      Level2_SpriteSheet_7x12_10: -242276917
+      Level2_SpriteSheet_7x12_67: -1327118016
+      Level2_SpriteSheet_7x12_19: -1446379847
+      Level2_SpriteSheet_7x12_21: 1352936013
+      Level2_SpriteSheet_7x12_45: -66938880
+      Level2_SpriteSheet_7x12_55: -1410981000
+      Level2_SpriteSheet_7x12_0: -1545934414
+      Level2_SpriteSheet_7x12_11: 1943278919
+      Level2_SpriteSheet_7x12_71: 291939973
+      Level2_SpriteSheet_7x12_56: -1104999837
+      Level2_SpriteSheet_7x12_66: -1554656186
+      Level2_SpriteSheet_7x12_36: -1938813685
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

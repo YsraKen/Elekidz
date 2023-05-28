@@ -439,6 +439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d694d4065ac61cb4fb547dc7cb82fb1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <ComponentId>k__BackingField: defaultSwitch
   resistance: Infinity
   maxAmpereRating: 6
   targetAmpereRatingNormalized: 0.5
@@ -591,6 +592,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4396643123374578890, guid: 80bd8bef014dc924b84fbc871afd0082, type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6653957538619893432, guid: 80bd8bef014dc924b84fbc871afd0082, type: 3}
       propertyPath: m_Name
       value: switch Variant
@@ -727,8 +732,25 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 8815104312002071024}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: PlayOneShot
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8300000, guid: 539a445bb089fe94fab8c61840d60eb2, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!224 &7276108176137997439 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6653957538619893433, guid: 80bd8bef014dc924b84fbc871afd0082, type: 3}
+  m_PrefabInstance: {fileID: 4084332708824476358}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &8815104312002071024 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: -4396643123374578890, guid: 80bd8bef014dc924b84fbc871afd0082, type: 3}
   m_PrefabInstance: {fileID: 4084332708824476358}
   m_PrefabAsset: {fileID: 0}

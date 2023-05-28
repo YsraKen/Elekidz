@@ -27,6 +27,10 @@ PrefabInstance:
       propertyPath: terminals.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 887890360, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
+      propertyPath: <ComponentId>k__BackingField
+      value: defaultLoad
+      objectReference: {fileID: 0}
     - target: {fileID: 536647748463038036, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
       propertyPath: myComponent
       value: 
@@ -40,9 +44,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2792594438365155262}
     - target: {fileID: 666016964939930951, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
-      propertyPath: m_Color.a
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6cd358a674a6e3e45b8e9674f478da19, type: 3}
     - target: {fileID: 1066049558362763111, guid: 46eed4764fd7f324691cfad5c4647680, type: 3}
       propertyPath: m_Sprite
       value: 

@@ -67,16 +67,19 @@ namespace ChargeMeUp.Experimental.Electronics
 			float lowestAmpereRating = float.MaxValue;
 			var weakest = default(Load);
 			
-			LoopCertainElementsOfType<Load>(element =>
+			foreach(var element in elements)
 			{
-				float value = element.MaxAmpereRating;
+				var load = element as Load;
+				if(!load) continue;
+				
+				float value = load.MaxAmpereRating;
 				
 				if(value < lowestAmpereRating)
 				{
 					lowestAmpereRating = value;
-					weakest = element;
+					weakest = load;
 				}
-			});
+			}
 			
 			return weakest;
 		}
@@ -85,23 +88,37 @@ namespace ChargeMeUp.Experimental.Electronics
 		
 		#region Shortcuts
 		
-		public void SetAsActiveCircuit()
-			=> LoopCertainElementsOfType<Load>(e => e.SetAsActiveCircuit());
-		
-		public void UpdateElectronicValues(float totalResistance, float voltage, float amperes)
-			=> LoopCertainElementsOfType<Load>(e => e.UpdateValues(totalResistance, voltage, amperes));
-		
-		public void DamageComponents()
-			=> LoopCertainElementsOfType<Load>(e => e.Damage());
-		
-		private void LoopCertainElementsOfType<T>(System.Action<T> onIterate) where T : Object, IElectronPath
+		public bool HasOpenNode()
 		{
+			bool hasOpenNode = default;
+			
 			foreach(var element in elements)
 			{
-				T t = element as T;
+				var node = element as Node;
 				
-				if(t) onIterate(t);
+				if(node)
+					hasOpenNode = node.IsOpenEnded;
 			}
+			
+			return hasOpenNode;
+		}
+		
+		public void SetAsActiveCircuit()
+		{
+			foreach(var element in elements)
+				(element as Load)?.SetAsActiveCircuit();
+		}
+		
+		public void UpdateElectronicValues(float totalResistance, float voltage, float amperes)
+		{
+			foreach(var element in elements)
+				(element as Load)?.UpdateValues(totalResistance, voltage, amperes);
+		}
+		
+		public void DamageComponents()
+		{
+			foreach(var element in elements)
+				(element as Load)?.Damage();
 		}
 		
 		#endregion
