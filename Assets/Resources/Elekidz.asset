@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Elekidz
   m_EditorClassIdentifier: 
   mainMenuScene: {fileID: 102900000, guid: 501cd5fc238e61f49bd2adbbcf8014af, type: 3}
-  runnerMenuScene: {fileID: 0}
+  runnerMenuScene: {fileID: 102900000, guid: 8040953090792b14d942c16959c8b043, type: 3}
   fixerMenuScene: {fileID: 102900000, guid: f752e9cc3e6aa334bb915e7f4a1f3326, type: 3}
   chargeMenuScene: {fileID: 102900000, guid: e698e082973f2f74887c1c30dba1503c, type: 3}
   runnerGameScene: {fileID: 102900000, guid: 8040953090792b14d942c16959c8b043, type: 3}

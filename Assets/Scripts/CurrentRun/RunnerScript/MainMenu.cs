@@ -3,16 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-	
-	public string CurrentRun;
-
-	
-	public void Runner () => LoadScene(CurrentRun);
-	
 	public void LoadScene (string sceneName) => SceneManager.LoadScene(sceneName);
 	
-	
-	public void QuitGame () 
+	public void QuitGame ()
 	{
 		Application.Quit();
 		

@@ -861,7 +861,7 @@ PrefabInstance:
     - target: {fileID: 1117758960064441182, guid: 976f4384c4f04994cb361f1358e77494, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1838335812, guid: 3859490d76d8e754aa461c00c7446002, type: 3}
+      objectReference: {fileID: -1534317771, guid: 3859490d76d8e754aa461c00c7446002, type: 3}
     - target: {fileID: 1117758960064441182, guid: 976f4384c4f04994cb361f1358e77494, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -873,7 +873,7 @@ PrefabInstance:
     - target: {fileID: 4262667816254831759, guid: 976f4384c4f04994cb361f1358e77494, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1371740831, guid: d63113631c8f967469ead60388b7a109, type: 3}
+      objectReference: {fileID: 629366059, guid: d63113631c8f967469ead60388b7a109, type: 3}
     - target: {fileID: 4285328034873859541, guid: 976f4384c4f04994cb361f1358e77494, type: 3}
       propertyPath: m_Name
       value: newTuner
