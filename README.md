@@ -32,14 +32,5 @@
 - **Puzzle Mode**: Drag and drop components to build functional circuits and solve puzzles.
 - **Circuit Simulations**: Experiment with different circuit designs and learn how components work together.
 
-## Contributing
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature/YourFeature`).
-6. Open a pull request.
-
 ## Contact
 For any questions or suggestions, please contact Kenneth Aducal at kenn.ysrael.22@gmail.com.
