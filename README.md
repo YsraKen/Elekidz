@@ -10,11 +10,6 @@
 - **Circuit Simulations**: Hands-on practice with circuit building and understanding electronic components.
 - **Kid-Friendly Design**: Colorful graphics and intuitive controls suitable for children.
 
-## Screenshots
-![Screenshot 1]([link_to_screenshot1]([https://img.itch.zone/aW1hZ2UvMjc3MzE3OC8xNjU0NjUyMy5wbmc=/original/6DRkdw.png](https://drive.google.com/file/d/19PYhAy6asm07i0xNLkxgf75eNiVbJlyA/view?usp=drive_link)))
-![Screenshot 2]([link_to_screenshot2]([https://img.itch.zone/aW1hZ2UvMjc3MzE3OC8xNjU0NjUyNS5wbmc=/original/43MJie.png](https://drive.google.com/file/d/1IIaV3QqNZMc5vzTUXREzL9XhLVno1e7m/view?usp=drive_link)))
-![Screenshot 3]([link_to_screenshot3]([https://img.itch.zone/aW1hZ2UvMjc3MzE3OC8xNjU0NjUyNy5wbmc=/original/leCejP.png](https://drive.google.com/file/d/1tYzpAlLDOeYlw8xLe11yrEA48pdPIQ5h/view?usp=drive_link)))
-
 ## Installation
 1. Clone the repository:
     ```bash
